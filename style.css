@@ -1,4 +1,4 @@
-/* Les éléments principaux */
+﻿/* Les éléments principaux */
 
 #bloc_page
 {
@@ -23,7 +23,7 @@ footer{
 }
 header h1, header h2, nav a
 {
-	font-family: Wingdings, 'Zapf Dingbats', sans-serif;
+	font-family: 'Palatino Linotype', Wingdings, 'Zapf Dingbats', sans-serif;
 
 
 }
