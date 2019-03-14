@@ -23,7 +23,7 @@ footer{
 }
 header h1, header h2, nav a
 {
-	font-family: 'Palatino Linotype', Wingdings, 'Zapf Dingbats', sans-serif;
+	font-family: /*Wingdings, */'Zapf Dingbats', sans-serif;
 
 
 }
