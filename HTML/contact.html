@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+        <link rel= "icon" href="LogoApodis3.ico">
+        <title>Apodis</title>
+    </head>
+    <body>
+    	<div id="view_port_img_lien"  class="back">
+       		<div id="view_port">
+       			<nav>
+                    <h2>APODIS</h2>
+                    <a href="index.html">Accueil</a>
+                     <a href="jeu.html">The Legend of Apodis</a>
+                    <a href="liens.html">Liens</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <div class="fullsize_viewport">
+           			<table class="fullsize_table_viewport">
+             			<tr>
+               				<td>
+    							<h1><span class="titre_page">Contact</span></h1>
+    							<h2>Des questions ou un commentaire sur le jeu?</h2>
+    						</td>
+    					</tr>
+    				</table>
+    			</div>
+    		</div>
+    	
+    	<div class="contain">
+    		<div class="contact_form">
+
+           		<form method="post" action="traitement.php">
+            		<p>
+            			<input type="email" name="email_contact" placeholder="Votre adresse email" class="input_contact">
+            			<input type="text" name="objet" placeholder="Objet de votre commentaire" class="input_contact"/>
+       					<textarea name="commentaire" placeholder="Votre commentaire" style="height: 400px;" class="input_contact"></textarea></p>
+       					<label class="contact_note">Notez notre jeu sur 10:</label>
+       					<input type="number" name="note_jeu" placeholder="Notez notre jeu" min="0" max="10" step="1" class="note_jeu">
+       					<input type="submit" value="Envoyer" class="bouton_envoyer">
+           		</form>
+
+        	</div>
+        </div>
+        <div class="line_before_footer">
+            
+        </div>
+
+        
+            <div class="contain">
+                <table class="table_footer">
+                  <tbody>
+                      <tr>
+                          <td>
+                              <div class ="subsection">
+                                <h3>APODIS</h3>
+                                <p>
+                                    Le groupe APODIS est un groupe d'étudiants de l'EPITA
+                                </p>
+                                <a href="index.html" class="liens_footer">Apodis</a>
+                                
+
+                              </div>
+                          </td>
+                          <td>
+                              <div class="subsection">
+                                <h3>LIENS</h3>
+                                <p>Téléchargez les rapports et le jeu</p>
+                                <a href="liens.html" class="liens_footer">Liens</a>
+                              </div>
+                          </td>
+                          <td>
+                              <div class="subsection">
+                                <h3>CONTACT</h3>
+                                <p>Contactez l'équipe APODIS</p>
+                                <a href="contact.html" class="liens_footer">Contact</a>
+                              </div>
+                          </td>
+                      </tr>
+                  </tbody>
+                </table>
+            </div>
+    
+
+    <hr>
+    Apodis -- The Legend of apodis
+    </div>
+
+		
+    
+    </body>
+</html>	

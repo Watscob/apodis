@@ -1,0 +1,351 @@
+/*Les éléments généraux*/
+html, body{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:"Gabriola";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+header{
+	background-color: black;
+
+}
+
+nav {
+
+    margin: auto;
+    max-width: 100%;
+    padding: 20px 20px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    font-weight: bold;
+
+}
+
+nav a {
+
+    margin-right: 20px;
+    color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+nav h2 {
+
+    margin: 0 30px 0 10px;
+    font-size: 40px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+	color: white;
+
+}
+#view_port_img{
+	background-image: url(image2.png);
+	background-attachment: fixed;
+}
+#view_port_img_jeu{
+	background-attachment: fixed;
+	background-image: url(menu.png);
+}
+#view_port_img_lien{
+	background-image: url(image2.png);
+	background-attachment: fixed;
+	
+}
+.logo_coin{
+	max-width: 120px;
+	display:block;
+
+}
+
+.fullsize_table_viewport {
+
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.back {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.titre_page{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.logo_viewport {
+
+    max-width: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    
+
+}
+
+.fullsize_viewport p {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 25px;
+
+}
+
+h1 {
+
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+
+
+}
+.titre_legend{
+	
+	color: white;
+	font-family: "Gabriola";
+
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-size: 40px;
+}
+p{
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+/*présentation du Groupe*/
+
+#groupe{
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px 0;
+    margin: 20px 0 0 0;
+    border-radius: 6px 6px 6px 6px;
+}
+.h2_groupe{
+	color: white;
+	font-size: 40px;
+}
+
+.pres{
+    width: 100%;
+    border-collapse: collapse;
+}
+.pres td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+}
+.td_pres{
+    margin: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.card_td_pres{
+    background-color: white;
+    padding: 30px 5px;
+    font-size: 30px;
+    
+}
+.text_td_pres{
+    padding: 20px 10px;
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 25px;
+}
+
+/*footer*/
+
+.line_before_footer{
+	height: 5px;
+	background-color: green;
+}
+
+.subsection{
+	font-size: 15px;
+	color: white;
+    vertical-align: middle;
+    font-family: "Arial";
+
+}
+.table_footer {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+.liens_footer{
+	color: white;
+	border: 1px solid white;
+	border-radius: 999px;
+	background-color: rgba(0,0,0,0.5);
+	margin: -5px 0;
+	padding: 5px 16px;
+	display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.liens_footer:hover{
+	color: black;
+	background-color: white;
+}
+hr{
+	border-top: 1px solid white;
+}
+
+
+
+/*Liens*/
+
+.card_view{
+    border-radius: 6px;
+    margin: 16px 0;
+    font-size: 25px;
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+    -moz-box-shadow:    0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+    box-shadow:         0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+}
+.card_view table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.card_view td{
+    padding: 16px;
+}
+.card_view .left{
+    color: white;
+    border-radius: 3px 0 0 3px;
+    width: 170px;
+
+}
+.card_view .text_in_card{
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+}
+.card_view .right_download{
+    background-color: white;
+    border-radius: 0 3px 3px 0;
+    width: 120px;
+}
+.card_view .download_card{
+    padding: 5px 16px;
+    margin: -5px 0;
+    border-radius: 999px;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card_view .download_card:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+/*Contact*/
+
+.contain{
+	max-width: 1200px;
+	margin: auto;
+}
+
+ .contact_form{
+    background-color: white;
+    padding: 50px;
+}
+
+.input_contact{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 10px 0;
+    transition: all 0.3s;
+}
+.input_contact:focus{
+    outline:  none;
+    border: 1px solid rgba(73, 28, 128, 1);
+}
+
+.contact_note{
+	color: black;
+	background-color: rgba(161, 178, 201, 0,8);
+	display: block;
+    font-weight: 100;
+    font-size: 20px;
+    
+
+}
+
+.note_jeu{
+	display: block;
+	width: 10%;
+	max-width: 10%;
+	border: 1px solid black;
+	border-radius: 3px;
+	transition: all 0.3s;
+	margin: 10px 0;
+	position: center;
+
+}
+.bouton_envoyer{
+    display: inline-block;
+    padding: 13px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.bouton_envoyer:hover{
+    color: rgba(73, 28, 128, 1);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
