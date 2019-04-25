@@ -1,4 +1,4 @@
-/* Les éléments principaux */
+﻿/* Les éléments principaux */
 
 #bloc_page
 {
@@ -15,7 +15,7 @@ body{
 	box-shadow: 3px 3px 0px;
 	margin: auto;
 	width: 900px;
-	font-family: Wingdings, 'Zapf Dingbats', sans-serif;
+	font-family: /*Wingdings, */'Zapf Dingbats', sans-serif;
 }
 footer{
 	background: url('fleur_lys.jpg') ;
@@ -23,7 +23,7 @@ footer{
 }
 header h1, header h2, nav a
 {
-	font-family: Wingdings, 'Zapf Dingbats', sans-serif;
+	font-family: /*Wingdings, */'Zapf Dingbats', sans-serif;
 
 
 }
