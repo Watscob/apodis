@@ -33,7 +33,7 @@
 
         <div class="contain">
             <div class="contact_form">
-
+                <!--
                 <form method="post" action="traitement.php">
                     <p>
                         <input type="email" name="email_contact" placeholder="Votre adresse email" class="input_contact">
@@ -43,7 +43,16 @@
                     <input type="number" name="note_jeu" placeholder="Notez notre jeu" min="0" max="10" step="1" class="note_jeu">
                     <input type="submit" value="Envoyer" class="bouton_envoyer">
                 </form>
-
+                -->
+                <form action="https://formspree.io/chanudet.etienne@gmail.com" method="POST">
+                    <p>
+                        <input type="email" name="email" placeholder="Votre adresse email" class="input_contact">
+                        <input type="text" name="objet" placeholder="Objet de votre commentaire" class="input_contact" />
+                        <textarea name="commentaire" placeholder="Votre commentaire" style="height: 400px;" class="input_contact"></textarea></p>
+                    <label class="contact_note">Notez notre jeu sur 10:</label>
+                    <input type="number" name="note" placeholder="Notez notre jeu" min="0" max="10" step="1" class="note_jeu">
+                    <input type="submit" value="Envoyer" class="bouton_envoyer">
+                </form>
             </div>
             <div class="line_before_footer">
 
